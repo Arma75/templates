@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>Central card layout</title>
+
+        <!-- Meta Tags -->
+        <meta charset="UTF-8"/> <!-- 문자 인코딩 설정 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- 반응형 웹 설정 -->
+        <meta name="format-detection" content="telephone=no"/> <!-- 전화번호 자동 감지 비활성화 -->
+        <meta name="robots" content="index, follow"/> <!-- 검색 엔진 크롤링 설정 -->
+        <meta name="description" content="Central card layout template" /> <!-- 설명 설정 -->
+        <meta name="keywords" content="template, empty"/> <!-- 키워드 설정 -->
+        <meta name="author" content="arma75"/> <!-- 작성자 설정 -->
+
+        <!-- Open Graph Meta Tags(SNS 공유) -->
+        <meta property="og:type" content="website" /> <!-- 타입 설정 -->
+        <meta property="og:title" content="Central card layout" /> <!-- 제목 설정 -->
+        <meta property="og:description" content="Central card layout template" /> <!-- 설명 설정 -->
+        <meta property="og:image" content="./assets/images/thumbnail.png" /> <!-- 이미지 설정 -->
+        <meta property="og:url" content="" /> <!-- URL 설정 -->
+
+        <!-- Progressive Web App -->
+        <link rel="manifest" href="/manifest.json">
+
+        <!-- Favicon Links -->
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png"> <!-- 16x16 파비콘 -->
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png"> <!-- 32x32 파비콘 -->
+        <link rel="icon" type="image/png" sizes="64x64" href="./assets/favicons/favicon-64x64.png"> <!-- 64x64 파비콘 -->
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/favicon-180x180.png"> <!-- 애플 터치 아이콘 -->
+
+        <!-- CSS Stylesheet -->
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                display: flex; 
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                overflow-y: auto;
+            }
+            .central-card-layout {
+                width: 100%;
+                height: 100%;
+                display: flex; 
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                overflow-y: auto;
+                padding: 40px;
+                gap: 32px;
+            }
+            .card-container {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 32px;
+            }
+            .card {
+                background-color: white;
+                padding: 24px;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #e0e0e0;
+            }
+            .icon {
+                font-size: 40px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main class="central-card-layout">
+            <h1>PAGE TITLE</h1>
+            <p>welcome sentence</p>
+
+            <section class="card-container">
+                <article class="card">
+                    <span class="icon">⚙️</span>
+                    <h3>menu1</h3>
+                    <p class="description">menu1 description</p>
+                </article>
+                <article class="card">
+                    <span class="icon">📝</span>
+                    <h3>menu2</h3>
+                    <p class="description">menu2 description</p>
+                </article>
+                <article class="card">
+                    <span class="icon">🚀</span>
+                    <h3>menu3</h3>
+                    <p class="description">menu3 description</p>
+                </article>
+                <article class="card">
+                    <span class="icon">📈</span>
+                    <h3>menu4</h3>
+                    <p class="description">menu4 description</p>
+                </article>
+            </section>
+        </main>
+
+        <!-- JavaScript -->
+        <script>
+        </script>
+    </body>
+</html>
