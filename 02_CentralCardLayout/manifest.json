@@ -1,7 +1,7 @@
 {
-  "name": "Central card layout",
-  "short_name": "Central card layout",
-  "description": "Central card layout template",
+  "name": "중앙 카드",
+  "short_name": "중앙 카드",
+  "description": "중앙 카드 template",
   "start_url": "/index.html",
   "scope": "/",
   "display": "standalone",
