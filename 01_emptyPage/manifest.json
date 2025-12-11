@@ -1,7 +1,7 @@
 {
-  "name": "Empty Page",
-  "short_name": "Empty Page",
-  "description": "empty page template",
+  "name": "빈 페이지",
+  "short_name": "빈 페이지",
+  "description": "빈 페이지 템플릿",
   "start_url": "/index.html",
   "scope": "/",
   "display": "standalone",

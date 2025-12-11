@@ -1,7 +1,7 @@
 {
   "name": "중앙 카드",
   "short_name": "중앙 카드",
-  "description": "중앙 카드 template",
+  "description": "중앙 카드 템플릿",
   "start_url": "/index.html",
   "scope": "/",
   "display": "standalone",
